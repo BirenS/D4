@@ -7,10 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version7 {
     
     
-    public partial class GreetingCardMaker_versio2 {
+    public partial class GreetingCardMaker_version7 {
+        
+        /// <summary>
+        /// form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
         /// lstBackColor control.
@@ -74,32 +83,5 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdUpdate;
-        
-        /// <summary>
-        /// pnlCard control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlCard;
-        
-        /// <summary>
-        /// lblGreeting control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGreeting;
-        
-        /// <summary>
-        /// imgDefault control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgDefault;
     }
 }

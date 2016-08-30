@@ -7,37 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications {
     
     
-    public partial class GreetingCardMaker_version4 {
-        
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// Wizard1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Wizard Wizard1;
-        
-        /// <summary>
-        /// lstForeColor control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList lstForeColor;
+    public partial class GreetingCardMaker_version5 {
         
         /// <summary>
         /// lstBackColor control.
@@ -47,24 +20,6 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList lstBackColor;
-        
-        /// <summary>
-        /// lstBorder control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList lstBorder;
-        
-        /// <summary>
-        /// chkPicture control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkPicture;
         
         /// <summary>
         /// lstFontName control.
@@ -85,6 +40,24 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         protected global::System.Web.UI.WebControls.TextBox txtFontSize;
         
         /// <summary>
+        /// lstBorder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList lstBorder;
+        
+        /// <summary>
+        /// chkPicture control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkPicture;
+        
+        /// <summary>
         /// txtGreeting control.
         /// </summary>
         /// <remarks>
@@ -92,6 +65,24 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtGreeting;
+        
+        /// <summary>
+        /// cmdSave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cmdSave;
+        
+        /// <summary>
+        /// cmdUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cmdUpdate;
         
         /// <summary>
         /// pnlCard control.

@@ -1,30 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
-
 using System.Drawing;
 using System.Drawing.Text;
 using System.ComponentModel;
-
-
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications
 {
-    public partial class GreetingCardMaker_version4 : System.Web.UI.Page
+    public partial class GreetingCardMaker_versio2 : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
             InstalledFontCollection fonts = new InstalledFontCollection();
             if (!this.IsPostBack)
             {
-                string[] colorArray = Enum.GetNames(typeof(KnownColor));
-                lstForeColor.DataSource = colorArray;
-                lstForeColor.DataBind();
                 // Set color options.
-                string[] colorArray1 = Enum.GetNames(typeof(KnownColor));
-                lstBackColor.DataSource = colorArray1;
+                string[] colorArray = Enum.GetNames(typeof(KnownColor));
+                lstBackColor.DataSource = colorArray;
                 lstBackColor.DataBind();
                 // Set font options.
                 foreach (FontFamily family in fonts.Families)
@@ -43,11 +34,11 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
             }
         }
 
-        protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
+        protected void cmdUpdate_Click(object sender, EventArgs e)
         {
+            // Update the color.
             pnlCard.BackColor = Color.FromName(lstBackColor.SelectedItem.Text);
 
-            pnlCard.ForeColor = Color.FromName(lstForeColor.SelectedItem.Text);
             // Update the font.
             lblGreeting.Font.Name = lstFontName.SelectedItem.Text;
             if (Int32.Parse(txtFontSize.Text) > 0)

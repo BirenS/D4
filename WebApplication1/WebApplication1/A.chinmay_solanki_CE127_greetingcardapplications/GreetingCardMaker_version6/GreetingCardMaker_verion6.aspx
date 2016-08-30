@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_version5.aspx.cs" Inherits="WebApplication1.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version5" ViewStateEncryptionMode="Always"%>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_verion6.aspx.cs" Inherits="WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version6.GreetingCardMaker_verion6" %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
@@ -24,21 +25,8 @@ Text="Add the Default Picture"></asp:CheckBox><br /><br />
 Enter the greeting text below:<br />
 <asp:TextBox ID="txtGreeting" runat="server" Width="240px" Height="85px"
 Textmode="MultiLine" /><br /><br />
-<asp:Button ID="cmdSave" OnClick="cmdSave_Click"
-runat="server" Width="71px" Height="24px" Text="Save" />&nbsp
-            <asp:Button ID="cmdUpdate" OnClick="cmdUpdate_Click"
-runat="server" Width="71px" Height="24px" Text="Update" />
+<asp:Button ID="cmdUpdate"  runat="server" Width="71px" Height="24px" Text="Update" PostBackUrl="~/A.chinmay_solanki_CE127_greetingcardapplications/GreetingCardMaker_version6/greetingcard.aspx" />
 </div>
-    <!-- Here is the card: -->
-<asp:Panel ID="pnlCard" runat="server"
-Width="339px" Height="481px" HorizontalAlign="Center"
-style="POSITION: absolute; TOP: 16px; LEFT: 313px;">
-<br />&nbsp;
-<asp:Label ID="lblGreeting" runat="server" Width="256px"
-Height="150px" /><br /><br /><br />
-<asp:Image ID="imgDefault" runat="server" Width="212px"
-Height="160px" />
-</asp:Panel>
 </form>
 </body>
 </html>

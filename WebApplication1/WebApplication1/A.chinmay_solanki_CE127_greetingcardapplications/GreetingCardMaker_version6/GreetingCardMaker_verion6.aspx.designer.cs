@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version6 {
     
     
-    public partial class GreetingCardMaker_version5 {
+    public partial class GreetingCardMaker_verion6 {
         
         /// <summary>
         /// lstBackColor control.
@@ -67,15 +67,6 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         protected global::System.Web.UI.WebControls.TextBox txtGreeting;
         
         /// <summary>
-        /// cmdSave control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdSave;
-        
-        /// <summary>
         /// cmdUpdate control.
         /// </summary>
         /// <remarks>
@@ -83,32 +74,5 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button cmdUpdate;
-        
-        /// <summary>
-        /// pnlCard control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlCard;
-        
-        /// <summary>
-        /// lblGreeting control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGreeting;
-        
-        /// <summary>
-        /// imgDefault control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgDefault;
     }
 }

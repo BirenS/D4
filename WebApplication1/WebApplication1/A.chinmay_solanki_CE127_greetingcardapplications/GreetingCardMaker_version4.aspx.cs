@@ -4,35 +4,27 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+
 using System.Drawing;
 using System.Drawing.Text;
 using System.ComponentModel;
 
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
+
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications
 {
-    public partial class GreetingCardMaker_version5 : System.Web.UI.Page
+    public partial class GreetingCardMaker_version4 : System.Web.UI.Page
     {
-        private string backcolor, fontname, borderstyle, greetingtext;
-        private Int32 fontsize;
-        protected void cmdSave_Click(object sender, EventArgs e)
-        {
-            backcolor = lstBackColor.SelectedItem.Text;
-            fontname= lstFontName.SelectedItem.Text;
-            fontsize = Int32.Parse(txtFontSize.Text);
-            borderstyle = lstBorder.SelectedItem.Text;
-            greetingtext = txtGreeting.Text;
-
-        }
-
         protected void Page_Load(object sender, EventArgs e)
         {
             InstalledFontCollection fonts = new InstalledFontCollection();
             if (!this.IsPostBack)
             {
-
-                // Set color options.
                 string[] colorArray = Enum.GetNames(typeof(KnownColor));
-                lstBackColor.DataSource = colorArray;
+                lstForeColor.DataSource = colorArray;
+                lstForeColor.DataBind();
+                // Set color options.
+                string[] colorArray1 = Enum.GetNames(typeof(KnownColor));
+                lstBackColor.DataSource = colorArray1;
                 lstBackColor.DataBind();
                 // Set font options.
                 foreach (FontFamily family in fonts.Families)
@@ -47,37 +39,21 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
                 // Select the first border option.
                 lstBorder.SelectedIndex = 0;
                 // Set the picture.
-                imgDefault.ImageUrl= "image/default.jpg";
-            }
-            else
-            {
-                backcolor = (string)ViewState["backcolor"];
-                fontname = (string)ViewState["fontname"];
-                fontsize = (Int32)ViewState["fontsize"];
-                borderstyle = (string)ViewState["borderstyle"];
-                greetingtext = (string)ViewState["greetingtext"];
+                imgDefault.ImageUrl = "image/default.jpg";
             }
         }
-        protected void Page_PreRender(object sender, EventArgs e)
+
+        protected void Wizard1_FinishButtonClick(object sender, WizardNavigationEventArgs e)
         {
-            ViewState["backcolor"] = backcolor;
-            ViewState["fontname"] = fontname;
-            ViewState["fontsize"] = fontsize;
-            ViewState["borderstyle"] = borderstyle;
-            ViewState["greetingtext"] = greetingtext;
+            pnlCard.BackColor = Color.FromName(lstBackColor.SelectedItem.Text);
 
-        }
-
-        protected void cmdUpdate_Click(object sender, EventArgs e)
-        {
-            pnlCard.BackColor = Color.FromName(backcolor);
-
+            pnlCard.ForeColor = Color.FromName(lstForeColor.SelectedItem.Text);
             // Update the font.
-            lblGreeting.Font.Name =fontname;
+            lblGreeting.Font.Name = lstFontName.SelectedItem.Text;
             if (Int32.Parse(txtFontSize.Text) > 0)
             {
                 lblGreeting.Font.Size =
-                FontUnit.Point(fontsize);
+                FontUnit.Point(Int32.Parse(txtFontSize.Text));
             }
             // Update the border style. This requires two conversion steps.
             // First, the value of the list item is converted from a string
@@ -87,7 +63,8 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
             TypeConverter converter =
             TypeDescriptor.GetConverter(typeof(BorderStyle));
             // Update the border style using the value from the converter.
-            pnlCard.BorderStyle = (BorderStyle)converter.ConvertFromString(borderstyle);
+            pnlCard.BorderStyle = (BorderStyle)converter.ConvertFromString(
+            lstBorder.SelectedItem.Text);
             // Update the picture.
             if (chkPicture.Checked)
             {
@@ -98,7 +75,7 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
                 imgDefault.Visible = false;
             }
             // Set the text.
-            lblGreeting.Text = greetingtext;
+            lblGreeting.Text = txtGreeting.Text;
         }
     }
 }

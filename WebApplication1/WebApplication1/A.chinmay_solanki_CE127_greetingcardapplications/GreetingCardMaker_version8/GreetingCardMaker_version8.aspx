@@ -1,13 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_versio2.aspx.cs" Inherits="WebApplication1.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_versio2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_version8.aspx.cs" Inherits="WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version8.GreetingCardMaker_version8" %>
+
 <!DOCTYPE html>
-<html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<title>Greeting Card Maker</title>
+    <title></title>
 </head>
 <body>
-<form runat="server">
-<div>
-<!-- Here are the controls: -->
+    <form id="form1" runat="server">
+    <div>
+    <!-- Here are the controls: -->
 Choose a background color:<br />
 <asp:DropDownList ID="lstBackColor" runat="server" Width="194px"
 Height="22px"/><br /><br />
@@ -27,16 +29,8 @@ Textmode="MultiLine" /><br /><br />
 <asp:Button ID="cmdUpdate" OnClick="cmdUpdate_Click"
 runat="server" Width="71px" Height="24px" Text="Update" />
 </div>
-<!-- Here is the card: -->
-<asp:Panel ID="pnlCard" runat="server"
-Width="339px" Height="481px" HorizontalAlign="Center"
-style="POSITION: absolute; TOP: 16px; LEFT: 313px;">
-<br />&nbsp;
-<asp:Label ID="lblGreeting" runat="server" Width="256px"
-Height="150px" /><br /><br /><br />
-<asp:Image ID="imgDefault" runat="server" Width="212px"
-Height="160px" />
-</asp:Panel>
-</form>
+
+    
+    </form>
 </body>
 </html>

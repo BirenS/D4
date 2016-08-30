@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_version3.aspx.cs" Inherits="WebApplication1.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GreetingCardMaker_version3.aspx.cs" Inherits="WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications.GreetingCardMaker_version3" %>
 <html>
 
 <head runat="server">

@@ -9,7 +9,7 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.ComponentModel;
 
-namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications
+namespace WebApplication1.A.chinmay_solanki_CE127_greetingcardapplications
 {
     public partial class GreetingCardMaker_version3 : System.Web.UI.Page
     {
