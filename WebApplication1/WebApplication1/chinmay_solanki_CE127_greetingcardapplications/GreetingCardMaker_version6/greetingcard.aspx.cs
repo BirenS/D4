@@ -17,7 +17,7 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications.Greetin
             RadioButtonList r1;
             DropDownList d1, d2;
             CheckBox c1;
-            if (PreviousPage != null && PreviousPage.IsCrossPagePostBack)
+          //  if (PreviousPage != null && PreviousPage.IsCrossPagePostBack)
             {
                 d1 = (DropDownList)PreviousPage.FindControl("lstBackColor");
 
@@ -63,6 +63,6 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications.Greetin
 
 
             }
-        }   
+        }
     }
 }

@@ -34,7 +34,7 @@ namespace WebApplication1.chinmay_solanki_CE127_greetingcardapplications.Greetin
                 // Select the first border option.
                 lstBorder.SelectedIndex = 0;
                 // Set the picture.
-                imgDefault.ImageUrl = "default.jpg";
+
             }
 
         }
