@@ -156,6 +156,18 @@
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="CE_138_Varun_shah\V1.aspx" />
+    <Content Include="CE_138_Varun_shah\V2.aspx" />
+    <Content Include="CE_138_Varun_shah\V3.aspx" />
+    <Content Include="CE_138_Varun_shah\V4.aspx" />
+    <Content Include="CE_138_Varun_shah\V5.aspx" />
+    <Content Include="CE_138_Varun_shah\V61.aspx" />
+    <Content Include="CE_138_Varun_shah\V62.aspx" />
+    <Content Include="CE_138_Varun_shah\V71.aspx" />
+    <Content Include="CE_138_Varun_shah\V72.aspx" />
+    <Content Include="CE_138_Varun_shah\V81.aspx" />
+    <Content Include="CE_138_Varun_shah\V82.aspx" />
+    <Content Include="CE_138_Varun_shah\V91.aspx" />
+    <Content Include="CE_138_Varun_shah\V92.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -283,6 +295,90 @@
     </Compile>
     <Compile Include="CE_138_Varun_shah\V1.aspx.designer.cs">
       <DependentUpon>V1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V2.aspx.cs">
+      <DependentUpon>V2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V2.aspx.designer.cs">
+      <DependentUpon>V2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V3.aspx.cs">
+      <DependentUpon>V3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V3.aspx.designer.cs">
+      <DependentUpon>V3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V4.aspx.cs">
+      <DependentUpon>V4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V4.aspx.designer.cs">
+      <DependentUpon>V4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V5.aspx.cs">
+      <DependentUpon>V5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V5.aspx.designer.cs">
+      <DependentUpon>V5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V61.aspx.cs">
+      <DependentUpon>V61.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V61.aspx.designer.cs">
+      <DependentUpon>V61.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V62.aspx.cs">
+      <DependentUpon>V62.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V62.aspx.designer.cs">
+      <DependentUpon>V62.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V71.aspx.cs">
+      <DependentUpon>V71.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V71.aspx.designer.cs">
+      <DependentUpon>V71.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V72.aspx.cs">
+      <DependentUpon>V72.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V72.aspx.designer.cs">
+      <DependentUpon>V72.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V81.aspx.cs">
+      <DependentUpon>V81.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V81.aspx.designer.cs">
+      <DependentUpon>V81.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V82.aspx.cs">
+      <DependentUpon>V82.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V82.aspx.designer.cs">
+      <DependentUpon>V82.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V91.aspx.cs">
+      <DependentUpon>V91.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V91.aspx.designer.cs">
+      <DependentUpon>V91.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V92.aspx.cs">
+      <DependentUpon>V92.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V92.aspx.designer.cs">
+      <DependentUpon>V92.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
