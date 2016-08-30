@@ -155,6 +155,11 @@
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_versio2.aspx" />
+    <Content Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version1.aspx" />
+    <Content Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version3.aspx" />
+    <Content Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version4.aspx" />
+    <Content Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version5.aspx" />
     <Content Include="CE_138_Varun_shah\V1.aspx" />
     <Content Include="CE_138_Varun_shah\V2.aspx" />
     <Content Include="CE_138_Varun_shah\V3.aspx" />
@@ -289,6 +294,41 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_versio2.aspx.cs">
+      <DependentUpon>GreetingCardMaker_versio2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_versio2.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_versio2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version1.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version1.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version3.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version3.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version4.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version4.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version5.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include=".chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version5.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version5.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CE_138_Varun_shah\V1.aspx.cs">
       <DependentUpon>V1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
