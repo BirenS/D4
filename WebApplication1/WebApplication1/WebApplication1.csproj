@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -145,7 +146,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
     <Content Include="Account\Login.aspx" />
@@ -155,12 +155,23 @@
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="CE_138_Varun_shah\V1.aspx" />
+    <Content Include="CE_138_Varun_shah\V2.aspx" />
+    <Content Include="CE_138_Varun_shah\V3.aspx" />
+    <Content Include="CE_138_Varun_shah\V4.aspx" />
+    <Content Include="CE_138_Varun_shah\V5.aspx" />
+    <Content Include="CE_138_Varun_shah\V61.aspx" />
+    <Content Include="CE_138_Varun_shah\V62.aspx" />
+    <Content Include="CE_138_Varun_shah\V71.aspx" />
+    <Content Include="CE_138_Varun_shah\V72.aspx" />
+    <Content Include="CE_138_Varun_shah\V81.aspx" />
+    <Content Include="CE_138_Varun_shah\V82.aspx" />
+    <Content Include="CE_138_Varun_shah\V91.aspx" />
+    <Content Include="CE_138_Varun_shah\V92.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="HtmlPage1.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -196,9 +207,6 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
-    <Content Include="Global.asax" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -278,32 +286,99 @@
       <DependentUpon>ResetPasswordConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="CE_138_Varun_shah\V1.aspx.cs">
+      <DependentUpon>V1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="CE_138_Varun_shah\V1.aspx.designer.cs">
+      <DependentUpon>V1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="CE_138_Varun_shah\V2.aspx.cs">
+      <DependentUpon>V2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="CE_138_Varun_shah\V2.aspx.designer.cs">
+      <DependentUpon>V2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
+    <Compile Include="CE_138_Varun_shah\V3.aspx.cs">
+      <DependentUpon>V3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V3.aspx.designer.cs">
+      <DependentUpon>V3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V4.aspx.cs">
+      <DependentUpon>V4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V4.aspx.designer.cs">
+      <DependentUpon>V4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V5.aspx.cs">
+      <DependentUpon>V5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V5.aspx.designer.cs">
+      <DependentUpon>V5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V61.aspx.cs">
+      <DependentUpon>V61.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V61.aspx.designer.cs">
+      <DependentUpon>V61.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V62.aspx.cs">
+      <DependentUpon>V62.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V62.aspx.designer.cs">
+      <DependentUpon>V62.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V71.aspx.cs">
+      <DependentUpon>V71.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V71.aspx.designer.cs">
+      <DependentUpon>V71.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V72.aspx.cs">
+      <DependentUpon>V72.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V72.aspx.designer.cs">
+      <DependentUpon>V72.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V81.aspx.cs">
+      <DependentUpon>V81.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V81.aspx.designer.cs">
+      <DependentUpon>V81.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V82.aspx.cs">
+      <DependentUpon>V82.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V82.aspx.designer.cs">
+      <DependentUpon>V82.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V91.aspx.cs">
+      <DependentUpon>V91.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V91.aspx.designer.cs">
+      <DependentUpon>V91.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V92.aspx.cs">
+      <DependentUpon>V92.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_138_Varun_shah\V92.aspx.designer.cs">
+      <DependentUpon>V92.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
