@@ -172,6 +172,20 @@
     <Content Include="A.chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version3.aspx" />
     <Content Include="A.chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version4.aspx" />
     <Content Include="A.chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version5.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\greet.png" />
+    <Content Include="CE_136_Chinmay_Vadgama\Greeting1Card.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\greetingcard.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCard1.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCard2.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_verion6.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version3.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version4.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version5.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version7.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version8.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version9.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\greetingcardpage.aspx" />
+    <Content Include="CE_136_Chinmay_Vadgama\Greeting_card.aspx" />
     <Content Include="CE_138_Varun_shah\V2.aspx" />
     <Content Include="CE_138_Varun_shah\V3.aspx" />
     <Content Include="CE_138_Varun_shah\V4.aspx" />
@@ -395,6 +409,97 @@
     </Compile>
     <Compile Include="A.chinmay_solanki_CE127_greetingcardapplications\GreetingCardMaker_version5.aspx.designer.cs">
       <DependentUpon>GreetingCardMaker_version5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\Greeting1Card.aspx.cs">
+      <DependentUpon>Greeting1Card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\Greeting1Card.aspx.designer.cs">
+      <DependentUpon>Greeting1Card.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\greetingcard.aspx.cs">
+      <DependentUpon>greetingcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\greetingcard.aspx.designer.cs">
+      <DependentUpon>greetingcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCard1.aspx.cs">
+      <DependentUpon>GreetingCard1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCard1.aspx.designer.cs">
+      <DependentUpon>GreetingCard1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCard2.aspx.cs">
+      <DependentUpon>GreetingCard2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCard2.aspx.designer.cs">
+      <DependentUpon>GreetingCard2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_verion6.aspx.cs">
+      <DependentUpon>GreetingCardMaker_verion6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_verion6.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_verion6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version3.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version3.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version4.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version4.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version5.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version5.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version7.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version7.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version8.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version8.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version9.aspx.cs">
+      <DependentUpon>GreetingCardMaker_version9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\GreetingCardMaker_version9.aspx.designer.cs">
+      <DependentUpon>GreetingCardMaker_version9.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\greetingcardpage.aspx.cs">
+      <DependentUpon>greetingcardpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\greetingcardpage.aspx.designer.cs">
+      <DependentUpon>greetingcardpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\Greeting_card.aspx.cs">
+      <DependentUpon>Greeting_card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CE_136_Chinmay_Vadgama\Greeting_card.aspx.designer.cs">
+      <DependentUpon>Greeting_card.aspx</DependentUpon>
     </Compile>
     <Compile Include="CE_138_Varun_shah\V2.aspx.cs">
       <DependentUpon>V2.aspx</DependentUpon>
